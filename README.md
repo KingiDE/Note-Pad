@@ -1,2 +1,2 @@
 # Note-Pad
-see README.md
+This is a Note-Pad made with TypeScript and NextJS
