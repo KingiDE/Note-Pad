@@ -20,7 +20,7 @@ export default function LightDarkModeSwitch({extraCSS}: {extraCSS?: string}) {
 
   return(
     <button onClick={toggleTheme} 
-      className={`shadow-sm shadow-black dark:shadow-white text-neutral-950 dark:text-neutral-50 bg-neutral-50 dark:bg-neutral-950 p-1 rounded outline outline-1 outline-neutral-400 dark:outline-neutral-800 ${extraCSS}`}
+      className={`shadow-[0_0_60px_15px_rgba(0,0,0,1)] shadow-black dark:shadow-white text-neutral-950 dark:text-neutral-50 bg-neutral-50 dark:bg-neutral-950 p-1 rounded outline outline-1 outline-neutral-400 dark:outline-neutral-800 ${extraCSS}`}
     >
       {displayingIcon}
     </button>
