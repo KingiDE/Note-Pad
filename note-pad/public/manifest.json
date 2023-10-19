@@ -1,0 +1,17 @@
+{
+  "theme_color": "#0a0a0a",
+  "background_color": "#252330",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "name": "Note it - Note your tasks",
+  "short_name": "Note it",
+  "description": "Note your tasks",
+  "icons": [
+    {
+      "src": "/icon-1024x1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ]
+}

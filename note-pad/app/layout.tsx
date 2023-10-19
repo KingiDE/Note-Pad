@@ -25,8 +25,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="de">
+    <html lang='de'>
       <body className={`${inter.variable} ${outfit.variable}`}>{children}</body>
+      <link rel='manifest' href='/manifest.json' />
     </html>
   );
 }
