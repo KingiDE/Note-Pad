@@ -4,8 +4,8 @@
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
-  "name": "Note it - Note your tasks",
-  "short_name": "Note it",
+  "name": "Note Pad - Note your tasks",
+  "short_name": "Note Pad",
   "description": "Note your tasks",
   "icons": [
     {
