@@ -26,6 +26,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang='de'>
+      <link rel='icon' type='image/x-icon' href='/favicon.ico'></link>
       <body className={`${inter.variable} ${outfit.variable}`}>{children}</body>
       <link rel='manifest' href='/manifest.json' />
     </html>
