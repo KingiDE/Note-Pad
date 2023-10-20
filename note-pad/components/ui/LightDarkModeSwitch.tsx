@@ -18,8 +18,10 @@ export default function LightDarkModeSwitch({extraCSS}: {extraCSS?: string}) {
     setDisplayingIcon(bodyClassList.contains('dark') ? icon.moon : icon.sun);
   };
 
-  return(
-    <button onClick={toggleTheme} 
+  return (
+    <button
+      onClick={toggleTheme}
+      name='Light Dark Mode Switch'
       className={` text-neutral-950 dark:text-neutral-50 bg-neutral-50 dark:bg-neutral-950 p-1 rounded outline outline-1 outline-neutral-400 dark:outline-neutral-800 ${extraCSS}`}
     >
       {displayingIcon}
