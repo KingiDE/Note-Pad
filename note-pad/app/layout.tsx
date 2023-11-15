@@ -15,8 +15,8 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Note-Pad",
-  description: "A Note-Pad",
+  title: 'Note-Pad',
+  description: 'A Note-Pad',
 };
 
 export default function RootLayout({
