@@ -1,4 +1,4 @@
-export default function Test() {
+export default function Offline() {
   return (
     <div>
       <div>You are offline</div>
