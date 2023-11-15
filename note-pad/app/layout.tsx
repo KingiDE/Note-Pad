@@ -17,6 +17,7 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: 'Note-Pad',
   description: 'A Note-Pad',
+  manifest: '/manifest.json',
 };
 
 export default function RootLayout({
